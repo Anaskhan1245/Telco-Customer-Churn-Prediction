@@ -1,0 +1,34 @@
+-- CREATE TABLE customer_demographics (
+--     customer_id VARCHAR(50) PRIMARY KEY,
+--     gender VARCHAR(10),
+--     senior_citizen INT,
+--     partner VARCHAR(5),
+--     dependents VARCHAR(5)
+-- );
+
+-- CREATE TABLE customer_services (
+--     customer_id VARCHAR(50) PRIMARY KEY,
+--     phone_service VARCHAR(5),
+--     multiple_lines VARCHAR(20),
+--     internet_service VARCHAR(20),
+--     online_security VARCHAR(20),
+--     online_backup VARCHAR(20),
+--     device_protection VARCHAR(20),
+--     tech_support VARCHAR(20),
+--     streaming_tv VARCHAR(20),
+--     streaming_movies VARCHAR(20)
+-- );
+
+-- CREATE TABLE customer_billing (
+--     customer_id VARCHAR(50) PRIMARY KEY,
+--     contract VARCHAR(20),
+--     paperless_billing VARCHAR(5),
+--     payment_method VARCHAR(50),
+--     monthly_charges FLOAT,
+--     total_charges VARCHAR(20), -- Ise hum string (VARCHAR) rakh rahe hain kyunki Kaggle file me isme chupi hui error (spaces) hai jise hum Python me clean karenge.
+--     churn VARCHAR(5)
+-- );
+
+-- select * from customer_billing ;
+-- select * from customer_demographics ;
+-- select * from customer_services ;
